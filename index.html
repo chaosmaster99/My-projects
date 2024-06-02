@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle DEALERSHIP</title>
+
+    <!-- import css custome file -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+
+        <div id="menu-btn" class="fa-solid fa-bars"></div>
+
+        <a href="#" class="logo">The <span>DRIVE </span> Club</a>
+
+        <!-- navbar section -->
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#vehicles">cars</a>
+            <a href="#services">services</a>
+            <a href="#featured">bikes</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <!-- login button -->
+        <div id="login-btn">
+            <button type="button" class="btn">login</button>
+            <i class="fa-regular fa-user"></i>
+        </div>
+
+
+    </header>
+    <!-- header section ends -->
+
+    <!-- login form -->
+    <div class="login-form-container">
+
+        <span class="fa-solid fa-xmark" id="close-login-btn"></span>
+
+        <form id="loginform" action="">
+            <h3>user login</h3>
+            <input type="email" placeholder="email" class="box" required>
+            <input type="password" placeholder="password" class="box" required minlength="8">
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </div>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+
+        <h1 class="home-parallax" data-speed="-2">Bored driving these mediocre machines?</h1>
+        <img class="home-parallax" data-speed="5" src="./image/car0.png" alt="">
+        <a href="#vehicles" class="btn home-parallax" data-speed="7">explore cars</a>
+        <a href="#featured" class="btn home-parallax" data-speed="7">explore bikes</a>
+    </section>
+    <!-- home section end -->
+
+
+    <!-- icon section starts -->
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fa-solid fa-house"></i>
+            <div class="content">
+                <h3>Vintage</h3>
+                <p>"Patina'd Perfection"</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-car"></i>
+            <div class="content">
+                <h3>Speed</h3>
+                <p>Faster Than Ever</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-users"></i>
+            <div class="content">
+                <h3>Iconic</h3>
+                <p>Iconic Excellence in Every Drive</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-car"></i>
+            <div class="content">
+                <h3>Elegance</h3>
+                <p>Timeless Elegance in Every Ride</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- icon section end -->
+
+    <!-- vehical section starts-->
+    <section class="vehical" id="vehicles">
+
+        <h1 class="heading">featured <span>cars</span></h1>
+
+        <div class="slider">
+
+            <div class="wrapper">
+                <div class="fa-solid fa-angle-left preNext" id="preBtn"></div>
+
+                <div class="wraper-box">
+                    <div class="box active" id="car-img1">
+                        <img src="./image/car1.png" alt="">
+                        <div class="content">
+                            <h3>Porshe</h3>
+                            <div class="price"><span>price: </span>Rs. 14,200,000</div>
+                            <p>
+                                new
+                                <span class="fa-solid fa-circle"></span>old
+                                <span class="fa-solid fa-circle"></span>automatic
+                                <span class="fa-solid fa-circle"></span>petrol
+                                <span class="fa-solid fa-circle"></span>183mph
+                            </p>
+                            <a href="https://www.porsche.com/international/models/718/" target="_blank" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                    <div class="box" id="car-img2">
+                        <img src="./image/blah1.png" alt="">
+                        <div class="content">
+                            <h3>BMW</h3>
+                            <div class="price"><span>price: </span>Rs. 1,440,000</div>
+                            <p>
+                                new
+                                <span class="fa-solid fa-circle"></span>2023
+                                <span class="fa-solid fa-circle"></span>automatic
+                                <span class="fa-solid fa-circle"></span>diesel
+                                <span class="fa-solid fa-circle"></span>123mph
+                            </p>
+                            <a href="https://www.bmw.in/en/all-models/z-series/roadster/2022/bmw-z4-overview.html" target="_blank" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                    <div class="box" id="car-img3">
+                        <img src="./image/blah3.jpg" alt="">
+                        <div class="content">
+                            <h3>Lamborghini</h3>
+                            <div class="price"><span>price: </span>Rs. 1,200,000</div>
+                            <p>
+                                new
+                                <span class="fa-solid fa-circle"></span>2023
+                                <span class="fa-solid fa-circle"></span>Manual
+                                <span class="fa-solid fa-circle"></span>petrol
+                                <span class="fa-solid fa-circle"></span>193mph
+                            </p>
+                            <a href="https://www.lamborghini.com/en-en/models/huracan/huracan-evo-spyder" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                    <div class="box" id="car-img4">
+                        <img src="./image/blah4.png" alt="">
+                        <div class="content">
+                            <h3>Range Rover</h3>
+                            <div class="price"><span>price: </span>Rs. 2,200,000</div>
+                            <p>
+                                new
+                                <span class="fa-solid fa-circle"></span>2023
+                                <span class="fa-solid fa-circle"></span>automatic
+                                <span class="fa-solid fa-circle"></span>petrol
+                                <span class="fa-solid fa-circle"></span>183mph
+                            </p>
+                            <a href="https://www.landrover.in/range-rover/range-rover/models-and-specifications.html" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                    <div class="box" id="car-img5">
+                        <img src="./image/blah5.jpg" alt="">
+                        <div class="content">
+                            <h3>Mazerrati</h3>
+                            <div class="price"><span>price: </span>Rs. 1,222,000</div>
+                            <p>
+                                new
+                                <span class="fa-solid fa-circle"></span>2022
+                                <span class="fa-solid fa-circle"></span>automatic
+                                <span class="fa-solid fa-circle"></span>petrol
+                                <span class="fa-solid fa-circle"></span>222mph
+                            </p>
+                            <a href="https://www.maserati.com/in/en/shopping-tools/configurator?modelCode=8630000#/main/exteriors" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                    <div class="box" id="car-img6">
+                        <img src="./image/blah6.jpg" alt="">
+                        <div class="content">
+                            <h3>Mercedes</h3>
+                            <div class="price"><span>price: </span>Rs. 1,200,400</div>
+                            <p>
+                                new
+                                <span class="fa-solid fa-circle"></span> 2024
+                                <span class="fa-solid fa-circle"></span> automatic
+                                <span class="fa-solid fa-circle"></span> diesel
+                                <span class="fa-solid fa-circle"></span> 200mph
+                            </p>
+                            <a href="https://www.mercedes-benz.co.in/passengercars/models/suv/glb/overview.html" class="btn">check out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fa-solid fa-angle-right preNext " id="nextBtn"></div>
+            </div>
+
+
+            <div class="activeCircle">
+                <div class="fa-regular fa-solid fa-circle" id="forCar-img1"></div>
+                <div class="fa-regular fa-circle" id="forCar-img2"></div>
+                <div class="fa-regular fa-circle" id="forCar-img3"></div>
+                <div class="fa-regular fa-circle" id="forCar-img4"></div>
+                <div class="fa-regular fa-circle" id="forCar-img5"></div>
+                <div class="fa-regular fa-circle" id="forCar-img6"></div>
+            </div>
+        </div>
+
+    </section>
+    <!-- vehical section end-->
+
+    <!-- services section starts -->
+    <section class="services" id="services">
+
+        <h1 class="heading">our <span>services</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fa-solid fa-car"></i>
+                <h3>vehicle selling</h3>
+                <p>Sell the best cars and bikes</p>
+                <a href="#vehicles" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>maintanace</h3>
+                <p>Maintain what we sell</p>
+                <a  class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-car-burst"></i>
+                <h3>car insurance</h3>
+                <p>100% Guarantee</p>
+                <a class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-car-battery"></i>
+                <h3>track events</h3>
+                <p>Allow users to race and participate in racing with what they buy</p>
+                <a class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-gas-pump"></i>
+                <h3>inhouse customization</h3>
+                <p>Customize to your desire</p>
+                <a class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24/7 support</h3>
+                <p>Reach out to us anytime</p>
+                <a href="#contact" class="btn">read more</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- services section end -->
+
+    <!-- bike section starts -->
+    <section class="featured" id="featured">
+
+        <h1 class="heading"><span>featured</span> bikes</h1>
+
+        <div class="featured-slider">
+
+            <div class="featured-wrapper">
+                <div class="fa-solid fa-angle-left preNext" id="fPreBtn"></div>
+
+                <div class="featured-wrapper2">
+                    <div class="featured-wrapper-box">
+
+                        <div class="box active">
+                            <img src="./image/bike1.jpg" alt="">
+                            <h3>Vulture</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="price">Rs. 1,50,000</div>
+                            <a href="https://vulturbike.com/en/" target="_blank" class="btn">check out</a>
+                        </div>
+
+                        <div class="box">
+                            <img src="./image/bike2.jpg" alt="">
+                            <h3>Truimph</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="price">Rs. 1,500,000</div>
+                            <a href="https://www.bikewale.com/triumph-bikes/" target="_blank" class="btn">check out</a>
+                        </div>
+
+                        <div class="box">
+                            <img src="./image/bike3.avif" alt="">
+                            <h3>BMW</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="price">Rs. 4,500,000</div>
+                            <a href="https://www.bmw-motorrad.in/en/models/modeloverview.html" target="_blank" class="btn">check out</a>
+                        </div>
+
+                        <div class="box">
+                            <img src="./image/bike4.jpg" alt="">
+                            <h3>Duke</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="price">Rs.555,000</div>
+                            <a href="https://www.bikewale.com/ktm-bikes/duke/" target="_blank" class="btn">check out</a>
+                        </div>
+
+                        <div class="box">
+                            <img src="./image/bike5.jpg" alt="">
+                            <h3>Royal Enfield</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="price">Rs. 1,500,000</div>
+                            <a href="https://www.royalenfield.com/in/en/financepage-india/?utm_source=google&utm_medium=cpc&utm_campaign=ao_in_mc_brand&utm_content=exact&utm_term=royal%20enfield&gad_source=1&gclid=Cj0KCQjw6uWyBhD1ARIsAIMcADrvuMhdXYSRPDe7yhgBTWz5FbWJTE-LzgxW1LvKxRN8Z-cr0mndD0UaAk49EALw_wcB" target="_blank" class="btn">check out</a>
+                        </div>
+
+                        <div class="box">
+                            <img src="./image/bike6.png" alt="">
+                            <h3>Java</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="price">Rs. 8,400,000</div>
+                            <a href="https://www.bikewale.com/jawa-bikes/" target="_blank" class="btn">check out</a>
+                        </div>
+
+                        <div class="box">
+                            <img src="./image/bike7.jpg" alt="">
+                            <h3>Kawazaki</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <div class="price">Rs. 3,500,000</div>
+                            <a href="https://kawasaki-india.com/bikes/ninja-zx-6r/" target="_blank" class="btn">check out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fa-solid fa-angle-right preNext" id="fNextBtn"></div>
+            </div>
+
+            <div class="fActCircle">
+                <div class="fa-regular fa-solid fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- bike section end -->
+
+    <!-- subscribe section starts -->
+    <section class="subscribe">
+
+        <h3>join us for a test drive</h3>
+
+        <p>join the club and race your fears with a free test drive offered by us</p>
+
+        <form id="subscribeForm" action="">
+            <input type="email" placeholder="enter your email">
+
+            <input type="submit" placeholder="subBtn">
+        </form>
+    </section>
+    <!-- subscribe section end -->
+
+    <!-- review section starts -->
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading">Top client's <span>review</span></h1>
+
+        <div class="review-slider">
+            <div class="fa-solid fa-angle-left rPreNext" id="rPreBtn"></div>
+            <div class="review-wrapper">
+
+                <div class="review-wrapper-box">
+
+                    <div class="box active">
+                        <img src="./image/pfp1.jpg" alt="">
+                        <div class="content">
+                            <p>Best car dealership I have seen. Creators of the website must get an O in their UID project!</p>
+                            <h3>Professor Sajith</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./image/pfp2.jpg" alt="">
+                        <div class="content">
+                            <p>Exceptional service and great deals! Highly recommend this dealership.Beautiful web design</p>
+                            <h3>Robert Downey Jr</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./image/pfp3.jpg" alt="">
+                        <div class="content">
+                            <p>Excellent service, top-notch cars. Check this dealership out immediately. Very accessible website</p>
+                            <h3>Steve Jobs</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./image/pfp4.avif" alt="">
+                        <div class="content">
+                            <p>Great experience, superb selection. Strongly recommend this dealership. Would love to work with them again.</p>
+                            <h3>Virat Kohli</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./image/pfp5.jpg" alt="">
+                        <div class="content">
+                            <p>Excelente servicio, atención profesional y una amplia selección de coches. Altamente recomendado para cualquiera que busque un auto nuevo?</p>
+                            <h3>Lionel Messi</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="./image/pfp6.webp" alt="">
+                        <div class="content">
+                            <p>Just bought the brand new porshe 911. Helped me select this beautiful car with ease. Enjoying my day</p>
+                            <h3>Bill Gates</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="fa-solid fa-angle-right rPreNext" id="rNextBtn"></div>
+
+            <div class="rActCircle">
+                <div class="fa-regular fa-solid fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+                <div class="fa-regular fa-circle"></div>
+            </div>
+        </div>
+    </section>
+    <!-- review section end -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us</h1>
+
+        <div class="row">
+
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1781700.7626304314!2d74.91767141980161!3d29.285725544780725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db00b8670400b%3A0x732eaab4aaa6c143!2sHaryana!5e0!3m2!1sen!2sin!4v1676226353123!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form id="contactForm" action="">
+                <h3>get in touch</h3>
+                <input type="text" placeholder="name " class="box" id="name" pattern="[A-Za-z\s]+" required>
+                <input type="email" placeholder="email" class="box" id="email" required>
+                <input type="tel" placeholder="number" class="box" id="number" pattern="[0-9]{10}" required>
+                <textarea class="box" cols="30" rows="10" placeholder="message" id="message" required></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+
+        <div class="footer-box-container">
+
+            <div class="box">
+                <h3>our branches</h3>
+                <a><i class="fa-solid fa-location-dot"></i> india</a>
+                <a><i class="fa-solid fa-location-dot"></i> france</a>
+                <a><i class="fa-solid fa-location-dot"></i> england</a>
+                <a><i class="fa-solid fa-location-dot"></i> austria</a>
+                <a><i class="fa-solid fa-location-dot"></i> russia</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fa-solid fa-arrow-right"></i> home</a>
+                <a href="#vehicles"><i class="fa-solid fa-arrow-right"></i> vehicles</a>
+                <a href="#services"><i class="fa-solid fa-arrow-right"></i> services</a>
+                <a href="#featured"><i class="fa-solid fa-arrow-right"></i> featured</a>
+                <a href="#reviews"><i class="fa-solid fa-arrow-right"></i> reviews</a>
+                <a href="#contact"><i class="fa-solid fa-arrow-right"></i> contact</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a onclick="copyToClipboard('+123-456-7890')" ><i class="fa-solid fa-phone"></i> +123-456-7890</a>
+                <a onclick="copyToClipboard('+111-222-3333')"><i class="fa-solid fa-phone"></i> +111-222-3333</a>
+                <a onclick="copyToClipboard('thedriveclass@gmail.com')"><i class="fa-solid fa-envelope"></i> thedriverclasss@gmail.com</a>
+                <a href="https://www.google.com/maps/dir//Haryana/@29.0587757,76.085601,8z/data=!4m5!4m4!1m0!1m2!1m1!1s0x390db00b8670400b:0x732eaab4aaa6c143" target="_blank"><i class="fa-solid fa-location-dot"></i> haryana, india</a>
+            </div>
+
+            <div class="box">
+                <h3>social media</h3>
+                <a href="https://www.facebook.com/search/top/?q=car%20dealership" target="blank"> <i  class="fa-brands fa-facebook-f"></i> facebook</a>
+                <a href="https://www.instagram.com/cardealershipguy/ " target="blank"><i class="fa-brands fa-instagram"></i> instagram</a>
+                <a href="https://x.com/CDG_Podcast" target="blank"><i class="fa-brands fa-twitter"></i> twitter</a>
+                <a href="https://in.pinterest.com/search/pins/?q=cars&rs=typed" target="blank"><i class="fa-brands fa-linkedin"></i> pintrest</a>
+            </div>
+
+        </div>
+        
+        <div class="copyright">copyright &copy; | all rights reserved</div>
+    </section>
+    <!-- footer section end -->
+
+
+    <!-- font awsome link -->
+    <script src="https://kit.fontawesome.com/ca9a6c5a17.js" crossorigin="anonymous"></script>
+
+    <!-- import javascript custome file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
